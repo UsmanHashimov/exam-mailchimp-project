@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style-type: none;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 37px;
+}
+header {
+  padding: 18px 0;
+  background: rgba(36, 28, 21, 0.3019607843);
+}
+header nav .container .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .container .header-wrapper ul:first-child {
+  display: flex;
+  gap: 40px;
+}
+header nav .container .header-wrapper ul:first-child li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #241c15;
+}
+header nav .container .header-wrapper img {
+  width: 240px;
+  height: 40px;
+}
+header nav .container .header-wrapper ul:last-child {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header nav .container .header-wrapper ul:last-child li p {
+  text-align: end;
+  font-size: 14px;
+  font-weight: 400;
+  color: #241c15;
+}
+header nav .container .header-wrapper ul:last-child li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #241c15;
+}
+header nav .container .header-wrapper ul:last-child li img {
+  width: 20px;
+  height: 20px;
+}
+header nav .container .header-wrapper ul:last-child li button {
+  font-size: 14px;
+  font-weight: 400;
+  color: #241c15;
+  border: none;
+  padding: 11px 24px;
+  background: #ffe01b;
+  border-radius: 26px;
+  cursor: pointer;
+}
+#intro {
+  background: rgba(36, 28, 21, 0.3019607843);
+}
+#intro .container .intro-top {
+  padding-top: 100px;
+  padding-bottom: 162px;
+}
+#intro .container .intro-top h3 {
+  font-size: 38px;
+  color: #241c15;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#intro .container .intro-top p {
+  margin: 0 auto;
+  width: 744px;
+  font-size: 24px;
+  color: #241c15;
+  text-align: center;
+}
+#intro .container .intro-bottom {
+  display: flex;
+}
+#intro .container .intro-bottom .card {
+  position: relative;
+}
+#intro .container .intro-bottom .card h2 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 22px;
+  color: #241c15;
+  width: 250px;
+}
+#intro .container .intro-bottom .card div {
+  padding: 20px 16px;
+}
+#intro .container .intro-bottom .card div p {
+  font-size: 16px;
+  margin-bottom: 31px;
+  line-height: 28px;
+}
+#intro .container .intro-bottom .card div a {
+  color: #241c15;
+}
+#pricing {
+  padding-bottom: 80px;
+  margin-bottom: 77px;
+  background: #f6f6f4;
+}
+#pricing .container h1 {
+  margin: 77px 0 82px 0;
+  color: #241c15;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.5px;
+}
+#pricing .container .pricing-wrapper {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+#pricing .container .pricing-wrapper .card {
+  border: 1px solid #bcbab8;
+  width: 300px;
+  height: 576px;
+}
+#pricing .container .pricing-wrapper .card h2 {
+  background: #c5dbf2;
+  color: #241c15;
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid #bcbab8;
+  padding: 9px 0;
+}
+#pricing .container .pricing-wrapper .card div {
+  padding: 25px;
+}
+#pricing .container .pricing-wrapper .card div h4 {
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+#pricing .container .pricing-wrapper .card div p {
+  width: 216px;
+  color: rgba(36, 28, 21, 0.65);
+  font-size: 13px;
+  margin-bottom: 11px;
+}
+#pricing .container .pricing-wrapper .card div small {
+  display: block;
+  color: rgba(36, 28, 21, 0.65);
+  font-size: 13px;
+}
+#pricing .container .pricing-wrapper .card div strong {
+  color: #241c15;
+  font-size: 33px;
+}
+#pricing .container .pricing-wrapper .card div ul {
+  margin-top: 24px;
+  padding: 0 25px;
+}
+#pricing .container .pricing-wrapper .card div ul li {
+  padding-bottom: 17px;
+  color: #241c15;
+  font-size: 13px;
+  text-decoration: underline;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #dbd9d2;
+}
+#pricing .container .overage {
+  margin-top: 16px;
+  margin-bottom: 23px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(36, 28, 21, 0.65);
+  text-align: center;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.25px;
+}
+#pricing .container .overage p:first-child {
+  color: #000;
+}
+#pricing .container button {
+  display: block;
+  width: 162px;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 11px 24px;
+  color: #241c15;
+  text-align: center;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px;
+  border-radius: 26px;
+  background: #ffe01b;
+  box-shadow: 0px 0px 0px 0px #241c15;
+  border: none;
+}
+#resurs .container h2 {
+  color: #241c15;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.5px;
+  width: 552px;
+  margin: 0 auto;
+  margin-bottom: 86px;
+}
+#resurs .container .card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  align-items: center;
+}
+#resurs .container .card div {
+  width: 528px;
+}
+#resurs .container .card div h3 {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 36px;
+}
+#resurs .container .card div p {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 36px;
+}
+#resurs .container .card div a {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+#reklam {
+  background: #e7b75f;
+}
+#reklam .container .reklam-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 759px;
+}
+#reklam .container .reklam-wrapper .reklam-left {
+  width: 534px;
+}
+#reklam .container .reklam-wrapper .reklam-left h4 {
+  color: #241c15;
+  font-family: Georgia;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 42px;
+}
+#reklam .container .reklam-wrapper .reklam-left small {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.333px;
+  letter-spacing: 0.32px;
+}
+#reklam .container .reklam-wrapper .reklam-left p {
+  margin-top: 24px;
+  color: #241c15;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 29px;
+  line-height: 30px;
+}
+#reklam .container .reklam-wrapper .reklam-left a {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+#reklam .container .reklam-wrapper .reklam-right {
+  width: 650px;
+  position: relative;
+}
+#reklam .container .reklam-wrapper .reklam-right img {
+  z-index: 2;
+  position: absolute;
+}
+#reklam .container .reklam-wrapper .reklam-right img:nth-child(1) {
+  top: -380px;
+  right: 0px;
+}
+
+#texnology {
+  padding-bottom: 80px;
+  margin-top: 204px;
+}
+#texnology .container h2 {
+  color: #241c15;
+  font-family: Georgia;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.5px;
+  width: 572px;
+  margin-bottom: 66px;
+}
+#texnology .container .texnology-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#texnology .container .texnology-wrapper .card {
+  display: flex;
+  margin-bottom: 48px;
+  width: 314px;
+  gap: 16px;
+  align-items: center;
+}
+#texnology .container .texnology-wrapper .card h5 {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+#texnology .container .texnology-wrapper .card p {
+  color: rgba(36, 28, 21, 0.65);
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.25px;
+}
+#texnology .container h3 {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+#integration {
+  background: #f6f6f4;
+  padding: 40px 0;
+}
+#integration .container div {
+  margin-bottom: 12px;
+}
+#integration .container div p {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+footer {
+  background: #e7b75f;
+}
+footer .container .footer-top {
+  padding: 40px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgba(36, 28, 21, 0.3019607843);
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+footer .container .footer-top p {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+footer .container .footer-middle {
+  padding-bottom: 74px;
+  border-bottom: 1px solid rgba(36, 28, 21, 0.3019607843);
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 37px;
+}
+footer .container .footer-middle ul h3 {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+footer .container .footer-middle ul li {
+  margin-bottom: 13px;
+}
+footer .container .footer-middle ul li a {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17.55px;
+}
+footer .container .footer-middle .card {
+  width: 163px;
+}
+footer .container .footer-middle .card div {
+  margin-bottom: 70px;
+}
+footer .container .footer-middle .card div p {
+  color: #241c15;
+  font-family: Georgia;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 8px;
+  line-height: 19.5px;
+}
+footer .container .footer-middle .card div h6 {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+footer .container .footer-bottom {
+  padding-bottom: 119px;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  align-items: center;
+}
+footer .container .footer-bottom ul {
+  display: flex;
+  gap: 25px;
+}
+footer .container .footer-bottom ul div {
+  display: flex;
+  gap: 25px;
+}
+footer .container .footer-bottom .div-right {
+  width: 346px;
+}
+footer .container .footer-bottom .div-right h6 {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+footer .container .footer-bottom .div-right p {
+  color: #241c15;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12.5px;
+} /*# sourceMappingURL=style.min.css.map */
