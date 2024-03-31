@@ -6,11 +6,11 @@ Explore the project here: [Project Demo](https://66098f7acac645dd5c72e396--cheer
 
 Here are some screenshots of the project:
 
-![Screenshot 1](example/screenshot.png)
-![Screenshot 2](example/screenshot-2.png)
-![Screenshot 3](example/screenshot-3.png)
-![Screenshot 4](example/screenshot-4.png)
-![Screenshot 5](example/screenshot-5.png)
+![Screenshot 1](example/scrinshot.png)
+![Screenshot 2](example/scrinnshot-2.png)
+![Screenshot 3](example/scrinshot-3.png)
+![Screenshot 4](example/scrinshot-4.png)
+![Screenshot 5](example/scrinshot-5.png)
 
 ## Project Overview
 
