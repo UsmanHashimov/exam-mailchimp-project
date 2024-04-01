@@ -4,4 +4,4 @@ Explore the project here: [Project Demo](https://66098f7acac645dd5c72e396--cheer
 
 ## Project Overview
 
-This project is a mockup of a Mailchimp email campaign page. It's designed to showcase frontend development skills, including responsive design, HTML and CSS basics.
+This project is a mockup of a Mailchimp email campaign page. It's designed to showcase frontend development skills, including HTML and CSS basics.
